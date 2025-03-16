@@ -4,7 +4,8 @@
   "description": "Discord botu için package.json",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot.js"
+    "start": "node bot.js",
+    "install-packages": "npm install --omit=dev"
   },
   "dependencies": {
     "discord.js": "^14.18.0",
